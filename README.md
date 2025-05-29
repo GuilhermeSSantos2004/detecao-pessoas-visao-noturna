@@ -9,10 +9,16 @@
 Encontrar pessoas em ambientes escuros é um grande desafio para equipes de busca e monitoramento. Em períodos noturnos, a falta de visibilidade dificulta a identificação rápida, aumentando o risco de pessoas serem deixadas para trás e não receberem socorro em tempo hábil.
 
 ## 💡 Visão Geral da Solução
-Desenvolvemos um sistema em Python capaz de processar vídeos noturnos, identificar automaticamente pessoas usando IA (MediaPipe Pose) e destacar cada pessoa encontrada com um quadro verde ao redor do corpo.
+Desenvolvemos um sistema em Python capaz de processar vídeos noturnos, identificar pessoas automaticamente usando IA (MediaPipe Pose) e destacar cada indivíduo com um quadro verde ao redor do corpo. O sistema também coleta as coordenadas das pessoas e marca suas localizações em um mapa. Caso haja mais de uma pessoa, o mapa exibe a quantidade total de pessoas detectadas no local.
 
-- Não precisa de hardware especial: apenas Python, OpenCV e MediaPipe.
-- Aplicação para drones, câmeras de segurança 
+O sistema grava o frame no momento da detecção, permitindo análises futuras. Dessa forma, é possível mapear o ambiente e quantificar, em tempo real, quantas pessoas estão presentes.
+
+Além disso, ao mapear as pessoas, a câmera consegue criar um modelo 3D do ambiente. Assim, órgãos como Defesa Civil, ONGs e outras entidades podem visualizar o local em 3D, facilitando o planejamento de estratégias para o resgate de pessoas em situação de risco.
+
+
+- Aplicação para drones, câmeras em geral.
+
+  ====== Realizar ajustes **** 
 
 ## Como Funciona
 
