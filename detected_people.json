@@ -1,0 +1,16 @@
+[
+  {"latitude": -23.561684, "longitude": -46.656139, "person_id": 1},
+  {"latitude": -23.564200, "longitude": -46.652500, "person_id": 2},
+  {"latitude": -23.559300, "longitude": -46.650800, "person_id": 3},
+  {"latitude": -23.567900, "longitude": -46.657000, "person_id": 4},
+  {"latitude": -23.562800, "longitude": -46.660900, "person_id": 5},
+  {"latitude": -23.565600, "longitude": -46.663500, "person_id": 6},
+  {"latitude": -23.563684, "longitude": -46.656139, "person_id": 7},
+  {"latitude": -23.521684, "longitude": -46.656139, "person_id": 8},
+  {"latitude": -23.561684, "longitude": -46.656139, "person_id": 9},
+  {"latitude": -23.561780, "longitude": -46.656110, "person_id": 10},
+  {"latitude": -23.561720, "longitude": -46.656099, "person_id": 11},
+  {"latitude": -20.561684, "longitude": -46.656139, "person_id": 12},
+  {"latitude": -20.561780, "longitude": -46.656110, "person_id": 13},
+  {"latitude": -20.561720, "longitude": -46.656099, "person_id": 14}
+]

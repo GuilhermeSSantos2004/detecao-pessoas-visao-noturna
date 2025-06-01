@@ -1,0 +1,7 @@
+ativar venv 
+- source venv/bin/activate  
+
+rodar o projeto de detectacao de psssoas 
+- python yolo_sort_track.py
+
+pip install -r requirements.txt
