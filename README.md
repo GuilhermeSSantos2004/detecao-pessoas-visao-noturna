@@ -13,8 +13,7 @@ Desenvolvemos um sistema em Python capaz de processar vídeos noturnos, identifi
 
 O sistema grava o frame no momento da detecção, permitindo análises futuras. Dessa forma, é possível mapear o ambiente e quantificar, em tempo real, quantas pessoas estão presentes.
 
-Além disso, ao mapear as pessoas, a câmera consegue criar um modelo 3D do ambiente. Assim, órgãos como Defesa Civil, ONGs e outras entidades podem visualizar o local em 3D, facilitando o planejamento de estratégias para o resgate de pessoas em situação de risco.
-
+Além disso, ao mapear as pessoas, criamos um algoritmo que gera uma rota otimizada, considerando o ponto de partida e a quantidade de pessoas presentes na região. Dessa forma, órgãos como Defesa Civil, ONGs e outras entidades podem planejar estratégias mais eficientes para o resgate de pessoas em situação de risco.
 
 - Aplicação para drones, câmeras em geral.
 
@@ -22,9 +21,10 @@ Além disso, ao mapear as pessoas, a câmera consegue criar um modelo 3D do ambi
 
 ## Como Funciona
 
-1. O usuário executa o script com um vídeo noturno (ex: `luneta.mp4`).
+1. O usuário executa o script com um vídeo noturno (por exemplo, `all.mp4`).
 2. O sistema processa cada frame do vídeo.
-3. Ao detectar uma pessoa, desenha um quadro verde ao redor dela e mostra a mensagem "Pessoa detectada".
+3. Quando uma pessoa é detectada, o sistema desenha um quadro verde ao redor dela, mostra a mensagem "Pessoa detectada" e salva o frame.
+4. O sistema pode gerar mapas e uma rota otimizada para resgate.
 
 ## 📽️ Demonstração
 
@@ -32,26 +32,55 @@ Além disso, ao mapear as pessoas, a câmera consegue criar um modelo 3D do ambi
 
 ## 📷 Exemplo de Funcionamento
 
-[Exemplo](exemplo1.png)
+![image](https://github.com/user-attachments/assets/0cea236d-3736-4630-ae07-dafca37a02af)
+![image](https://github.com/user-attachments/assets/784598f8-8d69-480b-ac4e-4d97541ec4aa)
+![image](https://github.com/user-attachments/assets/e642898c-c8ca-4cf4-ba98-dd108009cb66)
+![image](https://github.com/user-attachments/assets/4df8dae7-0903-4243-94fd-2ea234c7592e)
+
 
 ### Pré-requisitos
 
 - Python 3.8+
-- OpenCV (`pip install opencv-python`)
-- MediaPipe (`pip install mediapipe`)
-- NumPy (`pip install numpy`)
 
-1. Clone este repositório.
-2. Adicione seu vídeo noturno à pasta do projeto (ex: `luneta.mp4`).
-3. Execute o comando:
+### Dependências
 
-    ```bash
-    python  detectar-pessoas.py
-    ```
-4. Aperte `q` para fechar a janela ao final.
+O projeto depende de:
 
-## ⚙️ Código Fonte
+- [OpenCV](https://pypi.org/project/opencv-python/)
+- [MediaPipe](https://pypi.org/project/mediapipe/)
+- [NumPy](https://pypi.org/project/numpy/)
+
+**Para instalar todas as dependências:**
+
+```bash
+pip install -r requirements.txt
+```
+
+### Passo a passo para rodar
+
+```bash
+git clone https://github.com/GuilhermeSSantos2004/detecao-pessoas-visao-noturna.git
+cd detecao-pessoas-visao-noturna
+```
+```bash
+python3 -m venv venv
+source venv/bin/activate   # Linux/Mac
+# ou
+venv\Scripts\activate      # Windows
+```
+### Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+
+### Execute o script principal:
+```bash
+python3 yolo_sort_track.py
+```
+E para gerar o mapa, executar:
+```bash
+python3 yolo_sort_track.py
+```
 
 
 
-   
