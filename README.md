@@ -26,7 +26,7 @@ Além disso, ao mapear as pessoas, criamos um algoritmo que gera uma rota otimiz
 3. Quando uma pessoa é detectada, o sistema desenha um quadro verde ao redor dela, mostra a mensagem "Pessoa detectada" e salva o frame.
 4. O sistema pode gerar mapas e uma rota otimizada para resgate.
 
-## 📽️ Demonstração
+## 📽️ Video de Demonstração
 
 [**Assista ao vídeo explicativo**](https://youtu.be/WDeKiATP7fQ)
 
