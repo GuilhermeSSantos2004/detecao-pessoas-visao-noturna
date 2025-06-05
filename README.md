@@ -28,7 +28,7 @@ Além disso, ao mapear as pessoas, criamos um algoritmo que gera uma rota otimiz
 
 ## 📽️ Demonstração
 
-> [**Assista ao vídeo explicativo**]([LINK](https://youtu.be/WDeKiATP7fQ))
+> [**Assista ao vídeo explicativo**]([https://youtu.be/WDeKiATP7fQ])
 
 ## 📷 Exemplo de Funcionamento
 
