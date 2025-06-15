@@ -17,8 +17,6 @@ Além disso, ao mapear as pessoas, criamos um algoritmo que gera uma rota otimiz
 
 - Aplicação para drones, câmeras em geral.
 
-  ====== Realizar ajustes **** 
-
 ## Como Funciona
 
 1. O usuário executa o script com um vídeo noturno (por exemplo, `all.mp4`).
